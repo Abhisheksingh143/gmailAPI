@@ -1,0 +1,20 @@
+{
+  "name": "internship",
+  "version": "1.0.0",
+  "description": "Internship Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Abhishek Pardeshi",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "base64-url": "^2.3.3",
+    "googleapis": "^105.0.0",
+    "mailparser": "^3.6.4",
+    "nodemon": "^2.0.22"
+  }
+}
